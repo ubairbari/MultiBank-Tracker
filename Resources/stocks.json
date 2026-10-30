@@ -1,0 +1,177 @@
+[
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "description": "Designs and sells iPhone, Mac, iPad, and services.",
+    "price": 189.84,
+    "change": 1.42
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "description": "Builds software, cloud services, and personal computing products.",
+    "price": 420.72,
+    "change": 2.18
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corporation",
+    "description": "Develops graphics processors and accelerated computing platforms.",
+    "price": 875.28,
+    "change": 15.3
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc.",
+    "description": "A technology company focused on search, advertising, and cloud services.",
+    "price": 166.15,
+    "change": -0.84
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "description": "Operates online retail, cloud computing, and digital services.",
+    "price": 183.32,
+    "change": 0.91
+  },
+  {
+    "symbol": "META",
+    "name": "Meta Platforms, Inc.",
+    "description": "Builds social technologies and virtual and augmented reality products.",
+    "price": 503.15,
+    "change": 4.23
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "description": "Designs electric vehicles, energy storage, and solar products.",
+    "price": 172.63,
+    "change": -3.72
+  },
+  {
+    "symbol": "BRK.B",
+    "name": "Berkshire Hathaway",
+    "description": "A diversified holding company with businesses across many industries.",
+    "price": 408.2,
+    "change": 1.05
+  },
+  {
+    "symbol": "LLY",
+    "name": "Eli Lilly and Company",
+    "description": "Discovers and develops medicines for major health conditions.",
+    "price": 774.3,
+    "change": 3.64
+  },
+  {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc.",
+    "description": "Designs semiconductor and infrastructure software solutions.",
+    "price": 1321.4,
+    "change": -6.11
+  },
+  {
+    "symbol": "JPM",
+    "name": "JPMorgan Chase & Co.",
+    "description": "Provides financial services and investment banking worldwide.",
+    "price": 198.37,
+    "change": 0.76
+  },
+  {
+    "symbol": "V",
+    "name": "Visa Inc.",
+    "description": "Operates a global digital payments network.",
+    "price": 275.11,
+    "change": 1.12
+  },
+  {
+    "symbol": "WMT",
+    "name": "Walmart Inc.",
+    "description": "Operates retail stores and e-commerce marketplaces.",
+    "price": 60.44,
+    "change": 0.28
+  },
+  {
+    "symbol": "XOM",
+    "name": "Exxon Mobil Corporation",
+    "description": "Explores, produces, and distributes energy and chemical products.",
+    "price": 116.87,
+    "change": -0.52
+  },
+  {
+    "symbol": "MA",
+    "name": "Mastercard Incorporated",
+    "description": "Provides payment processing and financial technology services.",
+    "price": 469.28,
+    "change": 2.05
+  },
+  {
+    "symbol": "COST",
+    "name": "Costco Wholesale Corporation",
+    "description": "Operates membership warehouses and e-commerce retail.",
+    "price": 726.49,
+    "change": 5.44
+  },
+  {
+    "symbol": "ORCL",
+    "name": "Oracle Corporation",
+    "description": "Provides cloud infrastructure, databases, and enterprise software.",
+    "price": 125.8,
+    "change": -1.14
+  },
+  {
+    "symbol": "NFLX",
+    "name": "Netflix, Inc.",
+    "description": "Offers subscription entertainment streaming worldwide.",
+    "price": 608.51,
+    "change": 4.82
+  },
+  {
+    "symbol": "AMD",
+    "name": "Advanced Micro Devices, Inc.",
+    "description": "Designs processors and graphics technologies.",
+    "price": 164.21,
+    "change": -2.38
+  },
+  {
+    "symbol": "KO",
+    "name": "The Coca-Cola Company",
+    "description": "Produces and markets beverages in global markets.",
+    "price": 62.7,
+    "change": 0.19
+  },
+  {
+    "symbol": "PEP",
+    "name": "PepsiCo, Inc.",
+    "description": "Makes and distributes beverages and convenient foods.",
+    "price": 171.55,
+    "change": -0.33
+  },
+  {
+    "symbol": "ADBE",
+    "name": "Adobe Inc.",
+    "description": "Creates digital media, design, and marketing software.",
+    "price": 474.9,
+    "change": 2.78
+  },
+  {
+    "symbol": "CRM",
+    "name": "Salesforce, Inc.",
+    "description": "Provides customer relationship management cloud software.",
+    "price": 272.11,
+    "change": -1.62
+  },
+  {
+    "symbol": "LIN",
+    "name": "Linde plc",
+    "description": "Supplies industrial gases and engineering services.",
+    "price": 438.26,
+    "change": 1.36
+  },
+  {
+    "symbol": "UNH",
+    "name": "UnitedHealth Group Incorporated",
+    "description": "Provides health benefits and healthcare services.",
+    "price": 527.06,
+    "change": -2.2
+  }
+]

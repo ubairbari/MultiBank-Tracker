@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* StockTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* StockTrackerApp.swift */; };
+		A10000000000000000000002 /* StockListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* StockListViewModelTests.swift */; };
+		A10000000000000000000003 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* Stock.swift */; };
+		A10000000000000000000004 /* StockFeedClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* StockFeedClient.swift */; };
+		A10000000000000000000005 /* StockListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* StockListViewModel.swift */; };
+		A10000000000000000000006 /* StockListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* StockListView.swift */; };
+		A10000000000000000000007 /* StockDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* StockDetailView.swift */; };
+		A10000000000000000000008 /* StockRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* StockRowView.swift */; };
+		A10000000000000000000009 /* ChangeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* ChangeLabel.swift */; };
+		A1000000000000000000000A /* stocks.json in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000D /* stocks.json */; };
+		A1000000000000000000000B /* StockCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000E /* StockCatalog.swift */; };
+		A1000000000000000000000C /* StockFeedClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000F /* StockFeedClientTests.swift */; };
+/* End PBXBuildFile section */
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* StockTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTrackerApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A20000000000000000000003 /* StockTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000004 /* StockListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListViewModelTests.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* StockTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000006 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* StockFeedClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockFeedClient.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* StockListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListViewModel.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* StockListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000A /* StockDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000B /* StockRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRowView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000C /* ChangeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLabel.swift; sourceTree = "<group>"; };
+		A2000000000000000000000D /* stocks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = stocks.json; sourceTree = "<group>"; };
+		A2000000000000000000000E /* StockCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCatalog.swift; sourceTree = "<group>"; };
+		A2000000000000000000000F /* StockFeedClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockFeedClientTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+/* Begin PBXFrameworksBuildPhase section */
+		A30000000000000000000001 /* App Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A30000000000000000000002 /* Test Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+/* Begin PBXGroup section */
+		A40000000000000000000001 = {isa = PBXGroup; children = (A20000000000000000000001 /* StockTrackerApp.swift */, A40000000000000000000002 /* Models */, A40000000000000000000004 /* Services */, A40000000000000000000005 /* ViewModels */, A40000000000000000000006 /* Views */, A40000000000000000000007 /* Tests */, A40000000000000000000008 /* Resources */, A20000000000000000000002 /* README.md */, A40000000000000000000003 /* Products */, ); sourceTree = "<group>"; };
+		A40000000000000000000002 /* Models */ = {isa = PBXGroup; children = (A20000000000000000000006 /* Stock.swift */, ); path = Models; sourceTree = "<group>"; };
+		A40000000000000000000003 /* Products */ = {isa = PBXGroup; children = (A20000000000000000000003 /* StockTracker.app */, A20000000000000000000005 /* StockTrackerTests.xctest */, ); name = Products; sourceTree = "<group>"; };
+		A40000000000000000000004 /* Services */ = {isa = PBXGroup; children = (A20000000000000000000007 /* StockFeedClient.swift */, A2000000000000000000000E /* StockCatalog.swift */, ); path = Services; sourceTree = "<group>"; };
+		A40000000000000000000005 /* ViewModels */ = {isa = PBXGroup; children = (A20000000000000000000008 /* StockListViewModel.swift */, ); path = ViewModels; sourceTree = "<group>"; };
+		A40000000000000000000006 /* Views */ = {isa = PBXGroup; children = (A20000000000000000000009 /* StockListView.swift */, A2000000000000000000000A /* StockDetailView.swift */, A2000000000000000000000B /* StockRowView.swift */, A2000000000000000000000C /* ChangeLabel.swift */, ); path = Views; sourceTree = "<group>"; };
+		A40000000000000000000007 /* Tests */ = {isa = PBXGroup; children = (A20000000000000000000004 /* StockListViewModelTests.swift */, A2000000000000000000000F /* StockFeedClientTests.swift */, ); path = StockTrackerTests; sourceTree = "<group>"; };
+		A40000000000000000000008 /* Resources */ = {isa = PBXGroup; children = (A2000000000000000000000D /* stocks.json */, ); path = Resources; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* StockTracker */ = {isa = PBXNativeTarget; buildConfigurationList = A80000000000000000000002 /* Build configuration list for PBXNativeTarget "StockTracker" */; buildPhases = (A60000000000000000000001 /* Sources */, A30000000000000000000001 /* App Frameworks */, A60000000000000000000002 /* Resources */, ); buildRules = (); dependencies = (); name = StockTracker; productName = StockTracker; productReference = A20000000000000000000003 /* StockTracker.app */; productType = "com.apple.product-type.application"; };
+		A50000000000000000000002 /* StockTrackerTests */ = {isa = PBXNativeTarget; buildConfigurationList = A80000000000000000000003 /* Build configuration list for PBXNativeTarget "StockTrackerTests" */; buildPhases = (A60000000000000000000003 /* Test Sources */, A30000000000000000000002 /* Test Frameworks */, A60000000000000000000004 /* Test Resources */, ); buildRules = (); dependencies = (AB0000000000000000000001 /* PBXTargetDependency */, ); name = StockTrackerTests; productName = StockTrackerTests; productReference = A20000000000000000000005 /* StockTrackerTests.xctest */; productType = "com.apple.product-type.bundle.unit-test"; };
+/* End PBXNativeTarget section */
+/* Begin PBXProject section */
+		A70000000000000000000001 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 2660; TargetAttributes = {A50000000000000000000001 = {CreatedOnToolsVersion = 26.6; }; A50000000000000000000002 = {CreatedOnToolsVersion = 26.6; TestTargetID = A50000000000000000000001; }; }; }; buildConfigurationList = A80000000000000000000001 /* Build configuration list for PBXProject "StockTracker" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base, ); mainGroup = A40000000000000000000001; productRefGroup = A40000000000000000000003 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (A50000000000000000000001 /* StockTracker */, A50000000000000000000002 /* StockTrackerTests */, ); };
+/* End PBXProject section */
+/* Begin PBXResourcesBuildPhase section */
+		A60000000000000000000002 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000000A /* stocks.json in Resources */, ); runOnlyForDeploymentPostprocessing = 0; };
+		A60000000000000000000004 /* Test Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXSourcesBuildPhase section */
+		A60000000000000000000001 /* App Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001 /* StockTrackerApp.swift in Sources */, A10000000000000000000003 /* Stock.swift in Sources */, A10000000000000000000004 /* StockFeedClient.swift in Sources */, A10000000000000000000005 /* StockListViewModel.swift in Sources */, A10000000000000000000006 /* StockListView.swift in Sources */, A10000000000000000000007 /* StockDetailView.swift in Sources */, A10000000000000000000008 /* StockRowView.swift in Sources */, A10000000000000000000009 /* ChangeLabel.swift in Sources */, A1000000000000000000000B /* StockCatalog.swift in Sources */, ); runOnlyForDeploymentPostprocessing = 0; };
+		A60000000000000000000003 /* Test Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000002 /* StockListViewModelTests.swift in Sources */, A1000000000000000000000C /* StockFeedClientTests.swift in Sources */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		AA0000000000000000000001 /* Container proxy */ = {isa = PBXContainerItemProxy; containerPortal = A70000000000000000000001 /* Project object */; proxyType = 1; remoteGlobalIDString = A50000000000000000000001; remoteInfo = StockTracker; };
+/* End PBXContainerItemProxy section */
+/* Begin PBXTargetDependency section */
+		AB0000000000000000000001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = A50000000000000000000001 /* StockTracker */; targetProxy = AA0000000000000000000001 /* Container proxy */; };
+/* End PBXTargetDependency section */
+/* Begin XCBuildConfiguration section */
+		A90000000000000000000001 /* Debug project */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; }; name = Debug; };
+		A90000000000000000000002 /* Release project */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; }; name = Release; };
+		A90000000000000000000003 /* Debug app */ = {isa = XCBuildConfiguration; buildSettings = {DEFINES_MODULE = YES; ENABLE_TESTABILITY = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_CFBundleDisplayName = "Stock Tracker"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance"; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.multibank.StockTracker; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		A90000000000000000000004 /* Release app */ = {isa = XCBuildConfiguration; buildSettings = {DEFINES_MODULE = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_CFBundleDisplayName = "Stock Tracker"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance"; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.multibank.StockTracker; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+		A90000000000000000000005 /* Debug tests */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.multibank.StockTrackerTests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StockTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StockTracker"; }; name = Debug; };
+		A90000000000000000000006 /* Release tests */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.multibank.StockTrackerTests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StockTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StockTracker"; }; name = Release; };
+/* End XCBuildConfiguration section */
+/* Begin XCConfigurationList section */
+		A80000000000000000000001 /* Project configurations */ = {isa = XCConfigurationList; buildConfigurations = (A90000000000000000000001 /* Debug project */, A90000000000000000000002 /* Release project */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A80000000000000000000002 /* App configurations */ = {isa = XCConfigurationList; buildConfigurations = (A90000000000000000000003 /* Debug app */, A90000000000000000000004 /* Release app */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A80000000000000000000003 /* Test configurations */ = {isa = XCConfigurationList; buildConfigurations = (A90000000000000000000005 /* Debug tests */, A90000000000000000000006 /* Release tests */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A70000000000000000000001 /* Project object */;
+}
